@@ -1,0 +1,15 @@
+.d-flex {
+  display: flex!important;
+}
+.hero-line {
+  height: 5px;
+}
+.bg-primaryColor {
+  background-color: #0081ec !important;
+}
+.bg-redColor {
+  background-color: #ff0e0e !important;
+}
+.bg-yellowColor {
+  background-color: #ffc700 !important;
+}
