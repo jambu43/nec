@@ -62,7 +62,7 @@ function Navbar() {
                    <div className="header_right_content">
                       <ul>
                          <li className="header-button">
-                            <a href="#" target="_blank" rel="" className="theme-btn one"> Contact </a>
+                            <Link href="/contact" rel="" className="theme-btn one"> Contact </Link>
                          </li>
                       </ul>
                    </div>
