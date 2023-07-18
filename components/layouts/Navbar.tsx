@@ -39,13 +39,13 @@ function Navbar() {
                             </li>
                             <li
                                className="menu-item menu-item-has-children dropdown dropdown_full position-static mega_menu nav-item">
-                               <a href="#" className="dropdown-toggle nav-link"><span>Services</span></a>
+                               <Link href="/services" className="dropdown-toggle nav-link"><span>Services</span></Link>
                             </li>
-                            <li className="menu-item menu-item-has-children dropdown nav-item">
+                            {/* <li className="menu-item menu-item-has-children dropdown nav-item">
                                <a href="blog.html" className="dropdown-toggle nav-link">
                                   <span>Evenements</span>
                                </a>
-                            </li>
+                            </li> */}
                             <li className="menu-item menu-item-has-children dropdown nav-item">
                                <a href="project-1-column-grid.html" className="dropdown-toggle nav-link">
                                   <span>Projets</span>
