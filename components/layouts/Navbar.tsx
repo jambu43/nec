@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Navbar() {
@@ -10,8 +11,8 @@ function Navbar() {
              <div className="col-lg-2 col-md-9 col-sm-9 col-xs-9 logo_column">
                 <div className="header_logo_box">
                    <a href="index.html" className="logo navbar-brand">
-                      <img src="logo/logo.png" alt="NEC" className="logo_default" />
-                      <img src="logo/logo.png" alt="NEC" className="logo__sticky" />
+                      <img src="/logo/logo.png" alt="NEC" className="logo_default" />
+                      <img src="/logo/logo.png" alt="NEC" className="logo__sticky" />
                    </a>
                 </div>
              </div>
@@ -27,14 +28,14 @@ function Navbar() {
                          <ul id="myNavbar" className="navbar_nav">
                             <li
                                className="menu-item  menu-item-has-children dropdown dropdown_full position-static mega_menu nav-item">
-                               <a href="index.html" className="dropdown-toggle nav-link">
+                               <Link href="/" className="dropdown-toggle nav-link">
                                   <span>Accueil</span>
-                               </a>
+                               </Link>
                             </li>
                             <li className="menu-item menu-item-has-children dropdown nav-item">
-                               <a href="#" className="dropdown-toggle nav-link">
-                                  <span>Actualités</span>
-                               </a>
+                               <Link href="/actualites" className="dropdown-toggle nav-link">
+                                  Actualités
+                               </Link>
                             </li>
                             <li
                                className="menu-item menu-item-has-children dropdown dropdown_full position-static mega_menu nav-item">
