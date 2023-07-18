@@ -10,7 +10,7 @@ import type { AppProps } from 'next/app'
 />;
 
 import "../public/css/bootstrap.min.css";
-import "../public/css/owl.css";
+import "../public/css/owl.css";2
 import "../public/css/swiper.min.css";
 import "../public/css/jquery.fancybox.min.css";
 import "../public/css/icomoon.css";
@@ -23,6 +23,11 @@ import "../public/css/woocommerce-layout.css";
 import "../public/css/woocommerce.css";
 import "../public/css/custom.css";
 
+// Import JS
+
+
+
 export default function App({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />
 }
+
