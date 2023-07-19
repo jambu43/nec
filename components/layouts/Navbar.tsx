@@ -47,12 +47,12 @@ function Navbar() {
                                </a>
                             </li> */}
                             <li className="menu-item menu-item-has-children dropdown nav-item">
-                               <a href="project-1-column-grid.html" className="dropdown-toggle nav-link">
+                               <Link href="/projets" className="dropdown-toggle nav-link">
                                   <span>Projets</span>
-                               </a>
+                               </Link>
                             </li>
                             <li className="menu-item  menu-item-has-children dropdown nav-item">
-                               <a href="shop.html" className="dropdown-toggle nav-link">
+                               <a href="#" className="dropdown-toggle nav-link">
                                   <span>Ressources</span>
                                </a>
                             </li>
