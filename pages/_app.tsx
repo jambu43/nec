@@ -9,19 +9,16 @@ import type { AppProps } from 'next/app'
   media="all"
 />;
 
-import "../public/css/bootstrap.min.css";
-import "../public/css/owl.css";2
-import "../public/css/swiper.min.css";
-import "../public/css/jquery.fancybox.min.css";
-import "../public/css/icomoon.css";
-import "../public/css/flexslider.css";
-import "../public/css/font-awesome.min.css";
-import "../public/css/style.css";
-import "../public/css/scss/elements/theme-css.css";
-import "../public/css/scss/elements/color-switcher/color.css";
-import "../public/css/woocommerce-layout.css";
-import "../public/css/woocommerce.css";
-import "../public/css/custom.css";
+import "../public/landing/bootstrap.css";
+import "../public/landing/all.css";
+import "../public/landing/brk-blue.css";
+import "../public/landing/brk-base-color.css";
+import "../public/landing/offsets.css";
+import "../public/landing/styles.min.css";
+import "../public/landing/backgrounds.css";
+import "../public/landing/countdown.css";
+// import "../public/landing/content.css";
+
 
 // Import JS
 
