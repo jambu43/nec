@@ -13,7 +13,7 @@ const Layout: React.FC<Props> = ({ children }) => {
     <div className="theme-creote">
       <div id="page" className="page_wapper hfeed site">
         <div id="wrapper_full" className="content_all_warpper">
-          <Navbar />
+          {/* <Navbar /> */}
           {/* Page Content  */}
           <div id="content" className="site-content">
             {children}

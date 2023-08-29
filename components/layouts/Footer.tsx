@@ -28,39 +28,39 @@ function Footer() {
                   <div className="content_box">
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Voluptatibus nam, quidem sint rem labore nesciunt
-                      Libero, iusto?
+                      Voluptatibus nam, quidem sint rem labore nesciunt Libero,
+                      iusto?
                     </p>
                     <div className="footer_copy_content_right">
-                <div className="social_media_v_one">
-                  <ul>
-                    <li>
-                      <a href="#">
-                        <span className="fa fa-facebook"></span>
-                        <small>facebook</small>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <span className="fa fa-twitter"></span>
-                        <small>twitter</small>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <span className="fa fa-skype"></span>
-                        <small>skype</small>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <span className="fa fa-instagram"></span>
-                        <small>instagram</small>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+                      <div className="social_media_v_one">
+                        <ul>
+                          <li>
+                            <a href="#">
+                              <span className="fa fa-facebook"></span>
+                              <small>facebook</small>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <span className="fa fa-twitter"></span>
+                              <small>twitter</small>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <span className="fa fa-skype"></span>
+                              <small>skype</small>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <span className="fa fa-instagram"></span>
+                              <small>instagram</small>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -97,13 +97,11 @@ function Footer() {
                 </div>
               </div>
             </div>
-            <div className="col-xl-2 col-lg-4 col-md-4 col-sm-12">
-            
-            </div>
+            <div className="col-xl-2 col-lg-4 col-md-4 col-sm-12"></div>
             <div className="col-xl-2 col-lg-4 col-md-4 col-sm-12">
               <div className="footer_widgets wid_tit style_one">
                 <div className="fo_wid_title">
-                  <h2>Le Ministère</h2>
+                  <h2>La précidence</h2>
                 </div>
               </div>
               <div className="pd_bottom_25"></div>
@@ -111,11 +109,21 @@ function Footer() {
                 <div className="navigation_foo_box">
                   <div className="navigation_foo_inner">
                     <ul className="menu">
-                      <li><a href="/ministre">Le Ministre</a></li>
-                      <li><a href="/vice-ministre">La Vice-Ministre</a></li>
-                      <li><a href="/cabinet">Cabinet du Ministre</a></li>
-                      <li><a href="/anciens-ministres">Anciens ministres</a></li>
-                      <li><a href="/cabinet">Textes fondateurs</a></li>
+                      <li>
+                        <a href="/ministre">présidence</a>
+                      </li>
+                      {/* <li>
+                        <a href="/vice-ministre">La Vice-Ministre</a>
+                      </li>
+                      <li>
+                        <a href="/cabinet">Cabinet du Ministre</a>
+                      </li>
+                      <li>
+                        <a href="/anciens-ministres">Anciens ministres</a>
+                      </li>
+                      <li>
+                        <a href="/cabinet">Textes fondateurs</a>
+                      </li> */}
                     </ul>
                   </div>
                 </div>
