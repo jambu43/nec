@@ -1,8 +1,7 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
 import Layout from "@/components/layouts/Layout";
-
-const inter = Inter({ subsets: ["latin"] });
+import Slider from "@/components/home/Slider";
 
 export default function Home() {
   return (
@@ -15,53 +14,7 @@ export default function Home() {
       </Head>
       <Layout>
         {/* <!---slider--> */}
-        <section className="slider style_four nav_position_one">
-          <div
-            className="owl-carousel owl_nav_block owl_dots_none theme_carousel owl-theme"
-            data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 7000, "smartSpeed": 1800, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'
-          >
-            <div className="slide-item-content">
-              <div className="slide-item content_left">
-                <div
-                  className="image-layer"
-                  style={{
-                    backgroundImage: "url(/images/sliders/slider-1-1.jpg)",
-                  }}
-                ></div>
-                <div className="auto-container">
-                  <div className="row">
-                    <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                      <div className="slider_content pd_top_180 pd_bottom_200">
-                        <h6 className="animate_up d-inline-block">
-                          Our Vision to Grow Better
-                        </h6>
-                        <h1 className="animate_left">
-                          Inspired <br /> Performance
-                        </h1>
-                        <p className="description animate_right">
-                          Duty obligations of business it will frequently occur
-                          that pleasures <br /> have to be repudiated and
-                          annoyances accepted.
-                        </p>
-                        <div className="button_all animate_down">
-                          <a
-                            href="#"
-                            target="_blank"
-                            rel="nofollow"
-                            className="theme-btn one  animated"
-                          >
-                            Read More
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* <!---slider-end---> */}
+        <Slider />
 
         <section className="image-box-section">
           <div className="pd_top_80"></div>
@@ -70,15 +23,12 @@ export default function Home() {
               <div className="col-xl-6 col-lg-12 mb-5 mb-lg-5 mb-xl-0">
                 <div className="image_boxes style_three">
                   <img
-                    src="/images/about/about-8.jpg"
+                    src="/images/fenec.jpeg"
                     className="img-fluid height_500 object-fit-cover"
                     alt="image"
                   />
                   <div className="video_box">
-                    <a
-                      href="https://www.youtube.com/embed/-VK0axfge4A"
-                      className="lightbox-image"
-                    >
+                    <a href="/videos/fenec.mp4" className="lightbox-image">
                       <i className="icon-play"></i>
                     </a>
                   </div>
@@ -88,73 +38,13 @@ export default function Home() {
                 <div className="title_all_box style_one dark_color">
                   <div className="title_sections ">
                     <div className="before_title">Évenement </div>
-                    <h2>Professional Individuals</h2>
+                    <h2>FORUM ÉCONOMIQUE SUR LA NOUVELLE ÉCONOMIE DU CLIMAT</h2>
 
                     <p>
-                      Our power of choice is untrammelled and when nothing
-                      prevents being able to do what we like best every
-                      pleasure.
+                      Accompagner le secteur privé congolais à tirer pleinement
+                      profit du marché Carbone dans un climat d'affaires de
+                      haute integrité
                     </p>
-                  </div>
-                </div>
-                <div className="progress_bar style_two">
-                  <div className="progress_new">
-                    <div
-                      className="ProgressBar ProgressBar--animateText"
-                      data-progress="84"
-                    >
-                      <svg
-                        className="ProgressBar-contentCircle"
-                        height="170"
-                        width="170"
-                      >
-                        <circle
-                          className="ProgressBar-background"
-                          cx="85"
-                          cy="85"
-                          r="75"
-                        ></circle>
-                        <circle
-                          transform="rotate(-90, 85, 85)"
-                          className="ProgressBar-circle"
-                          cx="85"
-                          cy="85"
-                          r="75"
-                          style={{
-                            strokeDasharray: "471px",
-                            strokeDashoffset: "75.36px",
-                          }}
-                        ></circle>
-                      </svg>
-                    </div>
-                    <div className="progress-value">
-                      <div>
-                        <h6>Year of 2020 </h6>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="content_box">
-                    <h2>84%</h2>
-                    <h3>Income Statement </h3>
-                    <p>
-                      Certain circumstances seds owing to the claims duty
-                      righteous indignation and so beguiled.{" "}
-                    </p>
-                  </div>
-                </div>
-                <div className="pd_top_30"></div>
-                <div className="row">
-                  <div className="col-lg-4 col-md-4 col-sm-12">
-                    <div className="theme_btn_all color_one">
-                      <a
-                        href="#"
-                        target="_blank"
-                        rel="nofollow"
-                        className="theme-btn one"
-                      >
-                        Download
-                      </a>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -163,16 +53,99 @@ export default function Home() {
           <div className="pd_bottom_80"></div>
         </section>
 
+        {/* <!---slider-end---> */}
+        <section className="expertise">
+          <div className="area_of_expertise">
+            <div className="simpleParallax">
+              <img
+                src="/images/event-cover.JPG"
+                className="cover-parallax"
+                alt="image"
+              />
+            </div>
+            <div className="title_and_video">
+              <div className="auto-container">
+                <div className="row">
+                  <div className="col-lg-4">
+                    <div className="video_box text-center">
+                      <a href="/videos/fenec.mp4" className="lightbox-image">
+                        <i className="icon-play"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="col-lg-2"></div>
+                  <div className="col-lg-6">
+                    <div className="title_all_box style_one text-end">
+                      <div className="title_sections">
+                        <h2>Crédit-carbone</h2>
+                        <p>
+                          Un crédit-carbone est un certificat relatif à
+                          l'évitement, la réduction ou à l'élimination d'une
+                          tonne de dioxyde de carbone, ou son équivalent
+                          d'autres gaz à effet de serre. Ces certificats
+                          s'inscrivent généralement dans le cadre de mécanismes
+                          de marché visant à l'atténuation du changement
+                          climatique terrestre.
+                        </p>
+                      </div>
+                      <div className="theme_btn">
+                        <a
+                          href="service-default.html"
+                          className="theme-btn one"
+                        >
+                          Voir plus
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="expertise">
+              <div className="auto-container">
+                <div className="row">
+                  <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 expertise_box">
+                    <div className="step_number">
+                      <h1>01.</h1>
+                    </div>
+                    <h2 className="title">
+                      <a href="#">Modélisation</a>
+                    </h2>
+                  </div>
+                  <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 expertise_box">
+                    <div className="step_number">
+                      <h1>02.</h1>
+                    </div>
+                    <h2 className="title">
+                      <a href="#">Arbres et forêts</a>
+                    </h2>
+                  </div>
+                  <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 expertise_box">
+                    <div className="step_number">
+                      <h1>03.</h1>
+                    </div>
+                    <h2 className="title">
+                      <a href="#">Utilisation</a>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="service_section bg_light_1" id="service">
           <div className="pd_top_80"></div>
           <div className="container">
             <div className="row">
               <div className="title_all_box style_one text-center dark_color">
                 <div className="title_sections">
-                  <h2>SERVICES</h2>
+                  <h2>Opportunités</h2>
                 </div>
               </div>
+
               <div className="pd_bottom_20"></div>
+
               <div className="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-xs-12">
                 <div className="service_box style_two dark_color">
                   <div className="service_content_two ">
@@ -225,7 +198,7 @@ export default function Home() {
               </div>
               <div className="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-xs-12">
                 <div className="service_box style_two dark_color">
-                  <div className="service_content_two  active_ser">
+                  <div className="service_content_two  ">
                     <div
                       className="content_inner"
                       style={{
@@ -323,11 +296,25 @@ export default function Home() {
                 </div>
                 <div className="mr_bottom_20"></div>
               </div>
+
+              <div
+                className="theme_btn"
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  marginTop: "4rem",
+                }}
+              >
+                <a href="service-default.html" className="theme-btn one">
+                  Voir plus
+                </a>
+              </div>
             </div>
           </div>
           <div className="pd_bottom_70"></div>
         </section>
         {/* <!---blog---> */}
+
         <section className="blog-post" id="blog">
           <div className="pd_top_80"></div>
           <div className="container">
@@ -579,7 +566,7 @@ export default function Home() {
         </section>
         {/* <!---blog-end---> */}
         {/* <!---project---> */}
-        <section className="bg_light_1" id="projects">
+        {/* <section className="bg_light_1" id="projects">
           <div className="pd_top_80"></div>
           <div className="container">
             <div className="row">
@@ -713,46 +700,63 @@ export default function Home() {
             </div>
           </div>
           <div className="pd_bottom_90"></div>
-        </section>
-        {/* <!---project-end---> */}
+        </section> */}
 
-        <section className="newsteller style_one bg_dark_3">
-          <div className="pd_top_40"></div>
-          <div className="auto-container">
-            <div className="row align-items-center">
-              <div className="col-lg-6 col-md-12">
-                <div className="content">
-                  <h2>Join Our Mailing List</h2>
-                  <p>
-                    For receiving our news and updates in your inbox directly.{" "}
-                  </p>
-                </div>
-              </div>
-              <div className="col-lg-6 col-md-12">
-                <div className="item_scubscribe">
-                  <div className="input_group">
-                    <form
-                      className="mc4wp-form"
-                      method="post"
-                      data-name="Subscibe"
-                    >
-                      <div className="mc4wp-form-fields">
-                        <input
-                          type="email"
-                          name="EMAIL"
-                          placeholder="Votre adresse email"
-                          required={true}
-                        />
-                        <input type="submit" value="S'inscrire" />
+        <section className="call-to-action">
+          <div className="call_to_action style_one">
+            <div className="image">
+              <img
+                src="assets/images/cal-action-bg-2.jpg"
+                className="img-fluid"
+                alt="image"
+              />
+            </div>
+            <div className="auto-container">
+              <div className="row">
+                <div className="col-lg-12">
+                  <div className="left_content">
+                    <div className="main_content">
+                      <h1>Projets</h1>
+                      <p>
+                        📝 Avez-vous une idée de projet excitante que vous
+                        souhaitez concrétiser ? Nous vous invitons à remplir
+                        notre formulaire de soumission de projet ! Partagez-nous
+                        votre vision et laissez-nous vous aider à la transformer
+                        en réalité. Nous croyons en votre potentiel et sommes
+                        prêts à accompagner chaque étape de votre parcours. Ne
+                        manquez pas cette opportunité et rejoignez-nous dès
+                        maintenant pour faire de votre projet un succès !
+                      </p>
+                      <div className="bottom_content">
+                        <div className="button_content">
+                          <a
+                            href="#"
+                            target="_blank"
+                            rel="nofollow"
+                            className="theme-btn three"
+                          >
+                           Remplir le formulaire
+                            <i className="icon-right-arrow-long"></i>
+                          </a>
+                        </div>
+                        <div className="call_content">
+                          <span className="icon-phone-call1 icon"></span>
+                          <div className="content_bx">
+                            <h2>Contactez-nous</h2>
+                            <p>contact@nec.cd &amp; 16599349993</p>
+                          </div>
+                        </div>
                       </div>
-                    </form>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="pd_bottom_40"></div>
         </section>
+
+        {/* <!---project-end---> */}
+
       </Layout>
     </>
   );

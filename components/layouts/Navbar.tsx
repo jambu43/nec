@@ -15,7 +15,7 @@ function Navbar() {
                     src="/logo/logo-nec.png"
                     alt="NEC Logo"
                     className="logo_default"
-                    style={{ width: "100%",height: 'auto', }}
+                    style={{ width: "100%", height: "auto" }}
                     width={500}
                     height={500}
                     priority
@@ -51,7 +51,7 @@ function Navbar() {
                           href="/services"
                           className="dropdown-toggle nav-link"
                         >
-                          <span>Opportunité</span>
+                          <span>Opportunités</span>
                         </Link>
                       </li>
                       <li className="menu-item  menu-item-has-children dropdown nav-item">
@@ -74,8 +74,7 @@ function Navbar() {
                   <ul>
                     <li className="header-button">
                       <Link href="/contact" rel="" className="theme-btn one">
-                        {" "}
-                        Contact{" "}
+                        Contact
                       </Link>
                     </li>
                   </ul>

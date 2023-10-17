@@ -13,3 +13,27 @@
 .bg-yellowColor {
   background-color: #ffc700 !important;
 }
+.slider-text{
+  position: absolute;
+}
+.discours {
+  opacity: 0;
+  animation: appear 4s linear 1s forwards; 
+  color: #fff;
+  font-size: 22px;
+  line-height: 1.5;
+}
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.author{
+  color: #fff;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 1;
+}
