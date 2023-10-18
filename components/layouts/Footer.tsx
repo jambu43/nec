@@ -51,12 +51,7 @@ function Footer() {
                           <a href="#">Contact</a>
                         </li>
 
-                        <li>
-                          <a href="#">Privacy policy</a>
-                        </li>
-                        <li>
-                          <a href="#">Terms of use</a>
-                        </li>
+                        
                       </ul>
                     </div>
                   </div>
@@ -82,14 +77,6 @@ function Footer() {
                             target="_blank"
                           >
                             Président
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="https://presidence.cd/president/le-president"
-                            target="_blank"
-                          >
-                            Première dame
                           </a>
                         </li>
                         <li>

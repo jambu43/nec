@@ -37,7 +37,7 @@ export default function Home() {
               <div className="col-xl-6 col-lg-12">
                 <div className="title_all_box style_one dark_color">
                   <div className="title_sections ">
-                    <div className="before_title">Évenement </div>
+                    <div className="before_title">Événements </div>
                     <h2>FORUM ÉCONOMIQUE SUR LA NOUVELLE ÉCONOMIE DU CLIMAT</h2>
 
                     <p>
@@ -743,7 +743,7 @@ export default function Home() {
                           <span className="icon-phone-call1 icon"></span>
                           <div className="content_bx">
                             <h2>Contactez-nous</h2>
-                            <p>contact@nec.cd &amp; 16599349993</p>
+                            <p><a href="mailto:contact@nec-president.cd" style={{ color: "#fff"}}>contact@nec-president.cd</a> &amp; <a href="tel:00243811950711" style={{ color: "#fff"}}>00243 811950 711</a></p>
                           </div>
                         </div>
                       </div>
