@@ -119,7 +119,7 @@ function Footer() {
                   <div className="pd_top_20"></div>
 
                   <div className="fo_wid_title">
-                    <h2>Subscribe Us Today</h2>
+                    <h2>Inscrivez-vous </h2>
                   </div>
                 </div>
                 <div className="footer_widgets foo_subscribe light_color style_one">

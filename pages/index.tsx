@@ -705,11 +705,11 @@ export default function Home() {
         <section className="call-to-action">
           <div className="call_to_action style_one">
             <div className="image">
-              <img
+              {/* <img
                 src="assets/images/cal-action-bg-2.jpg"
                 className="img-fluid"
                 alt="image"
-              />
+              /> */}
             </div>
             <div className="auto-container">
               <div className="row">
